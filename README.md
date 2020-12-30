@@ -11,3 +11,12 @@
 Indinizer Colorscheme
 - Blue: #00a2ff
 - Orange: #ff9c00
+
+## Installation
+```bash
+git clone https://github.com/yamiiweb/indinizer-doc
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+```
