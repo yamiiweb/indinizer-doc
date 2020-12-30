@@ -20,3 +20,7 @@ npm install
 cp .env.example .env
 php artisan key:generate
 ```
+Edit the .env file and add your database
+```bash
+php artisan migrate
+```
